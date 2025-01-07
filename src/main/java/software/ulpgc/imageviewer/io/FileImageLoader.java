@@ -7,7 +7,7 @@ import java.io.FileFilter;
 
 public class FileImageLoader implements ImageLoader {
 
-    private static final String[] supportedExtensions = {".png", ".jpg"};
+    private static final String[] supportedExtensions = {".png", ".jpg", ".jpeg"};
     private final File[] files;
 
     public FileImageLoader(File folder) {
